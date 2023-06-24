@@ -119,24 +119,32 @@ const SignInPage = () => {
                     className="leading-[normal] p-0 placeholder:text-black-900 sm:pr-5 text-base text-black-900 text-left w-full"
                     wrapClassName="bg-gray-200 mt-2 pb-2 pl-[15px] pr-[35px] pt-[11px] rounded-[10px] w-full"
                   ></Input>
-                  <a
-  href="javascript:void(0)"
+                 <button
   className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
+  onClick={() => { /* Handle button click */ }}
 >
-                    <Text size="txtLatoRegular16Blue700">Forgot password?</Text>
-                  </a>
+  {!collapsed && (
+    <Text size="txtMontserratRegular14">Forgot Password?</Text>
+  )}
+</button>
+
                   <div
                     className="bg-cover bg-no-repeat flex flex-col font-montserrat h-10 items-center justify-end mt-[17px] p-[9px] w-full"
                     style={{
                       backgroundImage: "url('images/img_buttonsignin.svg')",
                     }}
                   >
-                   <a
-  href="javascript:void(0)"
+<button
   className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
+  style={{ backgroundImage: "url('images/img_buttonsignin.svg')" }}
+  onClick={() => { /* Handle button click */ }}
 >
-                      <Text size="txtMontserratBold16">Sign In</Text>
-                    </a>
+  {!collapsed && (
+    <Text size="txtMontserratRegular14">Sign In</Text>
+  )}
+</button>
+
+
                   </div>
                 </div>
               </div>

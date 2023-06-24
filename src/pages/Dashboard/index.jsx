@@ -106,14 +106,15 @@ const DashboardPage = () => {
                 Help
               </Text>
             )}
-      <a
-  href="javascript:void(0)"
+      <button
   className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
+  onClick={() => { /* Handle button click */ }}
 >
-              {!collapsed && (
-                <Text size="txtMontserratRegular14">Contact Us</Text>
-              )}
-            </a>
+  {!collapsed && (
+    <Text size="txtMontserratRegular14">Contact Us</Text>
+  )}
+</button>
+
           </Sidebar>
           <div className="flex flex-1 flex-col gap-[39px] items-center justify-start w-full">
             <div className="flex md:flex-col flex-row md:gap-5 items-center justify-start w-full">
@@ -524,12 +525,15 @@ const DashboardPage = () => {
                     >
                       Today’s schedule
                     </Text>
-                    <a
-  href="javascript:void(0)"
+                    <button
   className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
+  onClick={() => { /* Handle button click */ }}
 >
-                      <Text size="txtMontserratRegular12">See All</Text>
-                    </a>
+  {!collapsed && (
+    <Text size="txtMontserratRegular14">See All</Text>
+  )}
+</button>
+
                     <Img
                       className="h-2 sm:ml-[0] ml-[7px] sm:mt-0 mt-1.5"
                       src="images/img_vector_gray_600_8x5.svg"
