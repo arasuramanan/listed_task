@@ -120,7 +120,7 @@ const SignInPage = () => {
                     wrapClassName="bg-gray-200 mt-2 pb-2 pl-[15px] pr-[35px] pt-[11px] rounded-[10px] w-full"
                   ></Input>
                   <a
-                    href="javascript:"
+                    href="#"
                     className="mt-[21px] text-base text-blue-700"
                   >
                     <Text size="txtLatoRegular16Blue700">Forgot password?</Text>
@@ -132,7 +132,7 @@ const SignInPage = () => {
                     }}
                   >
                     <a
-                      href="javascript:"
+                      href="#"
                       className="text-base text-center text-white-A700"
                     >
                       <Text size="txtMontserratBold16">Sign In</Text>
