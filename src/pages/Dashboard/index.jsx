@@ -107,7 +107,7 @@ const DashboardPage = () => {
               </Text>
             )}
             <a
-              href="javascript:"
+              href="#"
               className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
             >
               {!collapsed && (
@@ -525,7 +525,7 @@ const DashboardPage = () => {
                       Today’s schedule
                     </Text>
                     <a
-                      href="javascript:"
+                      href="#"
                       className="sm:ml-[0] ml-[196px] sm:mt-0 mt-[3px] text-gray-600 text-xs"
                     >
                       <Text size="txtMontserratRegular12">See All</Text>
