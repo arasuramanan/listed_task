@@ -4,6 +4,8 @@ import { useGoogleLogin } from "@react-oauth/google";
 
 import { Img, Input, Text } from "components";
 
+const collapsed = true;
+
 const SignInPage = () => {
   const googleSignIn = useGoogleLogin({
     onSuccess: (res) => {
