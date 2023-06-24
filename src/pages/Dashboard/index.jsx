@@ -106,10 +106,10 @@ const DashboardPage = () => {
                 Help
               </Text>
             )}
-            <a
-              href="#"
-              className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
-            >
+      <a
+  href="javascript:void(0)"
+  className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
+>
               {!collapsed && (
                 <Text size="txtMontserratRegular14">Contact Us</Text>
               )}
@@ -525,9 +525,9 @@ const DashboardPage = () => {
                       Today’s schedule
                     </Text>
                     <a
-                      href="#"
-                      className="sm:ml-[0] ml-[196px] sm:mt-0 mt-[3px] text-gray-600 text-xs"
-                    >
+  href="javascript:void(0)"
+  className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
+>
                       <Text size="txtMontserratRegular12">See All</Text>
                     </a>
                     <Img

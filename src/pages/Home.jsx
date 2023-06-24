@@ -6,7 +6,7 @@ const Home = () => {
       <h1>Homepage</h1>
       <p className="headline">
  
-        <a href="#"></a>
+        {/* <a href="#"></a> */}
       </p>
       <ul>
         <li>

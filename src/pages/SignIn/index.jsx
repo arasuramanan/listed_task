@@ -120,9 +120,9 @@ const SignInPage = () => {
                     wrapClassName="bg-gray-200 mt-2 pb-2 pl-[15px] pr-[35px] pt-[11px] rounded-[10px] w-full"
                   ></Input>
                   <a
-                    href="#"
-                    className="mt-[21px] text-base text-blue-700"
-                  >
+  href="javascript:void(0)"
+  className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
+>
                     <Text size="txtLatoRegular16Blue700">Forgot password?</Text>
                   </a>
                   <div
@@ -131,10 +131,10 @@ const SignInPage = () => {
                       backgroundImage: "url('images/img_buttonsignin.svg')",
                     }}
                   >
-                    <a
-                      href="#"
-                      className="text-base text-center text-white-A700"
-                    >
+                   <a
+  href="javascript:void(0)"
+  className="mb-[58px] ml-[50px] mr-[152px] mt-[867px] text-sm text-white-A700"
+>
                       <Text size="txtMontserratBold16">Sign In</Text>
                     </a>
                   </div>
